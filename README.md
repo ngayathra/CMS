@@ -1,2 +1,2 @@
 # Classroom management system 
-# HTML + CSS + PHP + Javascript + jQuery
+HTML + CSS + PHP + Javascript + jQuery
