@@ -1,0 +1,901 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	/*background-image: url(../img/2.jpg);*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image:linear-gradient ;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	background-color: #cecece;
+	height: -webkit-fill-available;
+	
+}
+#background-video{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -9999;
+}
+/* common */
+/*.link{
+	text-decoration: none;
+	color: #eee;
+	display: block;
+}*/
+
+.login_container{
+	width: 100%;
+	min-height: 60px;
+	/*border-radius: 5px;*/
+	float: left;
+	background: #009688;
+	overflow: auto;
+	box-shadow:0px 7px 10px 0px rgba(0, 0, 0, 0.51);
+	position: relative;
+	z-index: 1;
+}
+
+.logo{
+	width: 470px;
+    /*height: 70px;*/
+    float: left;
+}
+.login_form{
+	text-align: center;
+	margin:10px auto;
+	float: right;
+	padding-right: 10px;
+}
+.login_form input{
+	
+	border: 0px;
+	height: 30px;
+	width: 180px;
+	padding-left: 17px;
+	margin-bottom: 10px;
+	border-radius: 17px;
+	border: 1px solid rgba(181, 181, 181, 0.84);
+	font-size: 12pt;
+	color: white;
+	background: rgba(181, 181, 181, 0.84);
+}
+
+.logout{
+	width: auto;
+    min-height: 50px;
+    float: right;
+}
+.logout form{
+	text-align: center;
+	margin:15px;
+	float: right;
+	padding-right: 10px;
+}
+.logout button, .login_form button, #signupbutton, .update_user button, .add_user_container form button, #upload, .apply_btn, .message_container form button, .news_container form button, .department_container form button{
+	border: 1px solid #fe3267;
+	border-radius: 17px;
+	background-color: #fe3267;
+	color: white;
+	height:30px;
+	width: 100px;
+	font-family: arial;
+	float: right;
+	cursor: pointer;
+	box-shadow: 5px 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.logout button:hover, .login_form button:hover, #signupbutton:hover, .update_user button:hover, .add_user_container form button:hover, #upload:hover, .message_container form button:hover, .news_container form div button:hover{
+	color: black;
+	background: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	transition: ease 0.8s;
+	border: 0;
+}
+
+/* ------- user image container of the top bar section -------- */
+.user{
+	margin-top: 25px;
+	color: white;
+	font-variant: small-caps;
+	float: left;
+	font-family: arial;
+}
+
+/* ------- user image of the image container section -------- */
+span.user_img{
+	width: 40px;
+	height: 35px;
+	float: left;
+	margin-top: 16px;
+	margin-right: 10px;
+}
+
+
+/* --------------------------- -- starting the menubar section styles --  -----------------------------------*/
+
+.nav_bar_container{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 18px;
+
+}
+.nav_bar_container ul{
+	margin:auto;
+	height: 50px;
+	width: 80%;
+	text-align: center;
+
+}
+
+.nav_bar_container ul li{
+	display: inline;
+	padding: 0px 5px;
+	/*margin: 0px 10px;*/
+	/*border-bottom: 2px solid white;*/
+	display: inline-block;
+
+}
+
+.nav_bar_container ul li:hover{
+	/*padding-bottom: 5px;*/
+	/*border-bottom: 2px solid #009688;*/
+	transition: ease-out 0.5s;
+	background: #009688;
+	color: white;
+	border-radius: 5px;
+}
+
+.nav_bar_container ul li a{
+	list-style-type: none;
+	text-decoration: none;
+	/*font-family: arial;*/
+	color: white;
+	font-weight: bold;
+
+}
+.nav_bar_container ul li a:hover{
+	/*color: white;*/
+}
+
+
+/* --------------------------------------- -- sign up section -- ----------------------------------------- */
+
+.signup_container{
+	margin: 10px 5px 0px 10px;
+	float: right;
+	border-radius: 5px;
+	background: rgba(0, 150, 136, 0.93);
+	width: 310px;
+	min-height: 350px;
+	box-shadow: 5px 7px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+
+.signup_image{
+	width: 104px;
+	height: 104px;
+	margin: 10px auto;
+}
+.signup_form form{
+	margin: 35px auto 15px ;
+	width: 266px;
+	height: 220px;
+}
+
+.wideinputbox{
+	
+	height: 30px;
+	width: 247px;
+	padding-left: 17px;
+	margin-bottom: 10px;
+	border-radius: 17px;
+	border: 1px solid rgba(181, 181, 181, 0.84);
+	font-size: 12pt;
+	color: white;
+	background: rgba(181, 181, 181, 0.84);
+}
+
+.smallinputbox{
+	width: 50px;
+	height: 30px;
+	border: 0px;
+	
+	margin-bottom: 10px;
+	padding-left: 17px;
+	border-radius: 17px;
+	border: 1px solid rgba(181, 181, 181, 0.84);
+	font-size: 12pt;
+	color: white;
+	background: rgba(181, 181, 181, 0.84);
+}
+.yearinputbox{
+	border: 0px;
+	height: 30px;
+	width: 100px;
+	padding-left: 17px;
+	margin-bottom: 10px;
+	border-radius: 17px;
+	border: 1px solid rgba(181, 181, 181, 0.84);
+	font-size: 12pt;
+	color: white;
+	background: rgba(181, 181, 181, 0.84);	
+}
+
+
+/* --------------------------- -- database alert message section styles --  -----------------------------------*/
+.alert{
+	 -webkit-transition: width 0.4s ease-in-out;
+	transition: height 0.4s ease-in-out;
+	background: #009688c7; 
+	box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.7); 
+	position: fixed;
+	top: 40%; 
+	left: 0; 
+	right: 0; 
+	color: white; 
+	font-size: 17pt; 
+	/*font-weight: bold;*/
+	text-align: center; 
+	/*font-family: arial; */
+	border: 2px solid rgba(148, 255, 209, 0.91); 
+	border-radius: 9px; 
+	
+	padding: 7px; 
+	margin: 0 auto; 
+	max-width: 400px; 
+	height: auto;
+	z-index: 999;
+}
+
+.closebtn{
+	float: right; 
+	/*font-size: 10pt;*/
+	color: red;
+	padding-right: 8px; 
+	font-weight: bold; 
+	cursor: pointer;
+}
+
+.closebtn:hover{
+	color: white;
+}
+
+.error{
+	background: #e61414d4; 
+}
+
+/* --------------------------- -- starting the slideshow section styles --  -----------------------------------*/
+.slide_container{
+	
+	width: 92.5%;
+	height: auto; /*old one is 400px*/
+	float: left;
+	margin: 0px 10px 20px 45px;
+	/*background: white;*/
+	/*border-radius: 8px;*/
+	/*box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2),0 6px 36px 0 rgba(0,0,0,0.19) !important;*/
+}
+
+/* ------- images of the slideshow section -------- */
+.slide{
+	/*background: url(../img/img.jpg);*/
+	/*width: 959px;*/
+	height: 328px;
+	margin: auto;
+	box-shadow: 1px 0px 13px 1px black;
+	overflow: hidden;
+}
+
+/* --------------------------- -- starting the middle section styles --  -----------------------------------*/
+.whiteboard{
+	width: 92.5%;
+	/*height: 620px;*/
+	float: left;
+	background-color: gainsboro;
+	margin: 0px 0px 20px 45px;
+	box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2),0 6px 36px 0 rgba(0,0,0,0.19) !important;
+	border-bottom-left-radius: 25px;
+}
+
+/* --------------------------- -- starting the side panel section styles --  -----------------------------------*/
+.side_pannel_container{
+	width: 20%;
+	height: auto;
+	float: right;
+	background: #009688;
+	margin-bottom: 75px;
+	margin-right: 10px;
+	box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2),0 6px 36px 0 rgba(0,0,0,0.19) !important;
+	border-radius: 5px;
+}
+
+.side_pannel_container hr:last-child{
+	display: none;
+}
+
+/* ------- content of the side pane section -------- */
+.news{
+	text-align: justify;
+	color: white;
+	padding: 15px 11px 8px 11px;
+	font-family: arial;
+	line-height: 20px;
+	font-size: 11pt;
+}
+
+.news h6{
+	text-align:right;
+	color: navajowhite;
+}
+
+.side_pannel_container hr{
+	margin:0px 6px;
+}
+/* --------------------------- -- starting the footer section styles --  -----------------------------------*/
+#heading{
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+#colom02{
+	float: left;
+	width: 350px;
+	height: auto;
+	margin: 40px 35px;
+	text-align: justify;
+	box-shadow: 2px 2px 5px 0px;
+	line-height: 20px;
+	padding: 10px 10px;
+}
+#colom02 h3{
+	text-align: center;
+}
+
+footer{
+	font-family: arial;
+	background: #23282d;
+	overflow: auto;
+	color: #4e4e4e;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+}
+
+/* ------- footer heading section -------- */
+.topfooter{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px; /*newly added*/
+	float: left;
+	width: 100%;
+	
+}
+
+.colom03{
+	float: left;
+	width: 350px;
+	height: auto;
+	margin: 20px 38px;
+	text-align: justify;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.8);
+	line-height: 20px;
+	padding: 5px 10px;
+}
+
+.colom03 ul li a{
+	text-decoration: none;
+	color: #4e4e4e;
+
+}
+
+.colom03 ul li{
+	list-style: none;
+}
+
+#colom02 hr{
+	border: hsla(0, 0%, 0%, 0.48) 1px solid;
+}
+
+.colom03 hr{
+	margin-top: 5px;
+	border: #4e4e4e 1px solid;	
+}
+
+.colom03 a{
+	text-decoration: none;
+}
+
+/* ------- content of the footer section -------- */
+.centerfooter{
+	float: left;
+	overflow: auto;
+	width: 100%;
+}
+
+/* ------- bottom signature of the footer section -------- */
+.bottomfooter{
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 8px 0px;
+	float: left;
+	width: 100%;
+	margin: auto;
+}
+.bottomfooter hr{
+	border: 1px solid #4e4e4e;
+	float: left;
+	overflow: auto;
+	
+}
+
+.department_container{
+	width: 95%; 
+	height: auto; 
+	/*float: left; */      /*new correnctions*/
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 0px 1px 13px 1px #0000004f;
+	background-color: gainsboro;
+	margin-bottom: 70px;
+	position: sticky;
+}
+
+.department{
+	margin: 0 auto; width: 90%; height: auto; overflow: auto;
+}
+
+.department h3, h2, .update_user h2, .add_user_container h2{
+	text-align: center; color: rgba(105, 105, 105, 0.73); margin-top: 5px;
+}
+/* ------------------ -- search bar section -- ------------------------*/
+.search_bar_container{
+	margin: 20px 0px;
+	float: left;
+	width: 100%;
+}
+
+.search_bar_container form{
+	width: 50%;
+	margin: auto;
+}
+
+.search_bar_container form input{
+	width: 85%;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	padding-left: 42px;
+	transition: ease-in-out 0.5s;
+	-webkit-transition: width 0.4s ease-in-out;
+}
+
+.search_bar_container input:focus{
+	width: 95%;
+}
+
+.l_card{
+	width: 200px;
+	min-height: 250px;
+	float: left;
+	margin: 10px 10px 10px 10px;
+	box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.43), 0 1px 2px rgba(0, 0, 0, 0.51);
+	overflow: hidden;
+	position: relative;
+	/*display: inline-block;*/
+
+}
+.l_card:hover{
+	/*width: 205px;
+	height: 255px;*/
+	cursor: pointer;
+	transition: ease 0.4s;
+	box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.5),0 7px 23px 0px rgba(0,0,0,0.5) !important;
+}
+
+.l_img{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+.l_img img{
+	float: left;
+}
+.l_name h3, h6{
+	text-align: center;
+	color: #696969;
+	padding: 5px;
+}
+.dept{
+	font-weight: bold;
+}
+
+.l_name{
+	width: 100%;
+    height: auto;
+    float: left;
+    background: rgba(255, 255, 255, 0.44);
+	box-shadow: 0px 1px 13px 0px rgb(41, 40, 40);
+}
+
+.l_card p{
+	color: white;
+	margin: 5px auto;
+	font-weight: bold;
+    font-family: cursive;
+    float: left;
+    width: 99%;
+    text-align: center; /* newly added */
+}
+/* toggle button for the attendance marking of the lecturers */
+.toggle_container{
+	   float: left;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.toggle_button {
+    margin: 0 auto;
+    width: 50px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+  box-shadow: 1px 1px 9px 0px black;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* edit user style */
+.update_user{
+	width: 100%;
+	height: auto;
+	padding: 20px 0px;
+	margin: 10px 0px ;
+	float: left;
+	background: gainsboro;
+	box-shadow: 0px 1px 13px 1px black;
+}
+.update_user_container{
+	width: 80%;
+	height: auto;
+	/*background-color: white;*/
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 60px;
+}
+.update_user form{
+	margin: auto;
+	height: auto;
+	width: 95%;
+}
+.update_user_container label{
+	display: -webkit-box;
+
+}
+
+form input[type="radio"]{
+	margin: 5px 0px 5px 5px;
+	height: 40px;
+	width: 40px;
+	border: .5px solid blue;
+	/*-webkit-transition: width 0.7s ease-in-out;*/
+}
+.update_user form input[type="text"]{
+	margin: 5px 0px 5px 5px;
+	height: 40px;
+	width: 50%;
+	padding-left: 30px;
+	font-size: 16pt;
+	border-radius: 8px;
+	border: .5px solid blue;
+	transition: ease 0.7s;
+	background: rgba(37, 140, 231, 0);
+	-webkit-transition: width 0.7s ease-in-out;
+	box-shadow: 0px 1px 13px 1px black;
+}
+
+.update_user form select{
+	margin: 5px 0px 5px 5px;
+	height: 40px;
+	width: 55%;
+	padding-left: 30px;
+	font-size: 16pt;
+	border-radius: 8px;
+	border: .5px solid blue;
+	transition: ease 0.7s;
+	-webkit-transition: width 0.7s ease-in-out;
+	background: rgba(37, 140, 231, 0);
+	box-shadow: 0px 1px 13px 1px black;
+	cursor: pointer;	
+}
+
+/* Add user page style section */
+
+.add_user_container{
+	width: 95%;
+	height: auto;
+	padding: 20px 0px;
+	margin: 20px 0px;
+	float: left;
+	background: gainsboro;
+	box-shadow: 0px 1px 13px 1px #0000004f;
+}
+.add_user_container form, .message_container form, .news_container form{
+	margin: auto;
+	margin-bottom: 20px;
+	height: auto; 
+	width: 95%;
+	overflow: hidden;
+}
+.add_user_container form select, .news_container form select{
+	margin: 5px 0px 5px 5px;
+	height: 40px;
+	width: 90%;
+	padding-left: 30px;
+	font-size: 16pt;
+	border-radius: 8px;
+	border: 0;
+	transition: ease 0.7s;
+	background: rgba(37, 140, 231, 0);
+	box-shadow: 0px 1px 5px 1px #00000087;
+}
+
+.add_user_container form input, .message_container form input, .news_container form input{
+	margin: 5px 0px 5px 5px;
+	height: 40px;
+	width: 90%;
+	padding-left: 30px;
+	font-size: 16pt;
+	border-radius: 8px;
+	border: 0;
+	transition: ease 0.7s;
+	background: rgba(37, 140, 231, 0);
+	display: inline-block;
+	box-shadow: 0px 1px 5px 1px #00000087;
+}
+.add_user_container form input:focus{
+	/*width: 95%;*/
+	/*border-bottom: 1px solid black;*/
+}
+
+.add_user_container form button{
+
+}
+.profile_image{
+	overflow: hidden;
+	float: left;
+	/*display: inherit;*/
+	width: 100%;
+}
+.text_field{
+	float: right;
+	width: 100%;
+}
+i.fa.fa-user-circle{
+font-size: 6em; color:#009688; text-align: center; display: inherit;
+}
+/* --------------------- -- message box style section -- -------------------------------------- */
+.message_container, .remove_user_container, .appearence, .news_container, .add_user_container{
+	width: 95%;
+	height: auto;
+	padding: 20px 0px;
+	margin: 20px auto;
+	/*float: left;*/
+	background: gainsboro;
+	box-shadow: 0px 1px 13px 1px #0000004f;
+	overflow: hidden;
+}
+.message_container, .news_container, .add_user_container{
+	float: left;
+	margin: 20px 10px;
+
+}
+
+/* --------------------- -- news / notice continer special style section -- -------------------------------------- */
+.news_container form input, .add_user_container form input, .message_container form input{
+	background-color: ghostwhite;
+}
+.news_container form select, .add_user_container form select{
+	background-color: ghostwhite;
+}
+.news_container form{
+	height: 215px;
+}
+.news_container form select{
+	width: 98%;
+}
+/* --------------------- -- About us style section -- -------------------------------------- */
+
+.about{
+	width: 95%;
+	height: auto;
+	padding: 20px 0px;
+	margin: auto;
+	margin-bottom: 70px;
+	/*float: left;*/
+	overflow: hidden;
+	background: gainsboro;
+	box-shadow: 0px 1px 13px 1px #0000004f;
+}
+.about p{
+	margin: 15px;
+}
+/* Faculty classromm style section */
+.lecHall_container{
+	width: 283px;
+	/*height: auto;*/
+	height: 200px;
+	text-align: center;
+	color: gainsboro;
+	padding: 5px;
+	font-weight: bold;
+	float: left;
+	margin: 5px;
+	background: #171c1f;
+	border-radius: 5px;
+	line-height: 25px;
+	box-shadow: 0px 1px 5px 1px black;
+}
+.lecHall_container p{
+	text-align: left;
+}
+.floor{
+	float: left;
+	width: 100%;
+}
+.floor header{
+	text-align: left; 
+	color: rgba(105, 105, 105, 0.73); 
+	margin: 15px 0px 0px 15px;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+/* admin's / dashboard page dashboard style section */
+.dashboard_container{
+	width: auto;
+	height: 100%;
+	background-color: #23282d;
+	color: white;
+	float: left;
+	position: fixed;
+	
+}
+.dashboard_container header{
+	text-align: center;
+	margin-top: 90px;
+	height: auto;
+	font-size: 20pt;
+	
+}
+.dashboard_container ul{
+	/*min-width: 250px;*/
+	height: 100%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	line-height: 40px;
+	list-style-type: none; 
+	font-weight: 400;
+	font-size: 14px;
+}
+.dashboard_container li a{
+	text-decoration: none;
+	color: #eee;
+	display: block;
+}
+/*.dashboard_container ul li{
+	padding-left: 5px;
+
+}*/
+.dashboard_container ul li:hover{
+	background: rgba(255, 255, 255, 0.15);
+	color: #00b9eb;
+	transition: ease-in-out 0.2s;
+}
+.dashboard_container ul li a:hover, ul li:hover{
+	color: #009688;
+}
+.dashboard_container ul li:focus{
+	background: #191e23;
+}
+.dashboard_container ul li a:focus{
+	color: #fff;
+	background: #009688;
+}
+.dicon{
+	float:left;width:37px; height:34px;text-align: center;
+}
+#item-name{
+	/*width: 170px;*/
+		/*overflow: hidden;*/
+		/*display: none;*/
+		width: 170px;
+		transition: ease-in-out 0.7s;
+}
+.content{
+	width: 87%;
+	float:right; 
+	height: 100%; 
+	margin: auto;
+	margin-bottom: 55px;
+}
+/* ------------------------ custmize scroll bar ---------------------------- */
+::-webkit-scrollbar{
+		width: 10px;
+		
+}
+::-webkit-scrollbar-track{
+		background: #009688;
+
+}
+::-webkit-scrollbar-thumb{
+	background: #999;
+	border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #888;
+}

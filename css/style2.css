@@ -1,0 +1,169 @@
+/* ------- responsive design of the menubar section -------- */
+
+@media only screen and (max-width: 680px){
+
+	 .nav_bar_container ul li{
+		float: none;
+		background-color: #021721;
+		display: block;
+		border-bottom: none;
+		/*padding: 10px;*/
+		margin:auto;
+	}
+
+	.nav_bar_container{
+		height: auto;
+		margin-bottom: 10px;
+		margin-top: 0px;
+	}
+
+	.nav_bar_container ul{
+		height: auto;
+		display: block;
+		width: auto;
+	}
+
+	.nav_bar_container ul li:hover{
+		background: #009688;
+		color: white;
+		border-bottom: none;
+
+	}
+
+	.nav_bar_container ul li a{
+		color: white;
+		display: block;
+		padding: 10px;
+
+	}
+	.login_container{
+		position: relative;
+	}
+/* ------- responsive design of the slideshow section -------- */
+	.body_container{
+		width: 100%;
+		height: auto;
+    
+   		float: left;
+	}
+
+	.slide_container{
+		margin:auto;
+		width: 97%;
+		height: auto;
+		float: none;
+		overflow: hidden;
+	}
+
+	.slide{
+		
+		height: auto;
+	}
+/* ------- responsive design of the middle content section -------- */
+	.whiteboard{
+		margin: 15px auto;
+		float: none;
+		/*display: inline-block;*/
+		width: 97%;
+	}
+/* ------- responsive design of the footer middle content section -------- */
+	.colom03{
+		float: none;
+		margin: 20px auto;
+		width: 75%;
+	}
+
+	.department_container{
+		width: 100%;
+		box-shadow: none;
+	}
+	.about{
+		
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	.logo{
+		float: none;
+		margin: 10px auto;
+		width: 200px;
+		height: auto;
+		text-align: center;
+		overflow: hidden;
+	}
+	.logout{
+		float: none;
+		margin: 0px auto;
+		width: 85%;
+		height: auto;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 993px){
+	.login_form button{
+		float: none;
+	}
+	
+
+	.side_pannel_container{
+		float: none;
+		margin: 15px auto;
+		width: 97%;
+		height: auto;
+		overflow: hidden;
+		margin-bottom: 70px;
+	}
+
+	.add_user_container{
+		width: 100%;
+	}
+
+	.profile_image{
+		float: left;
+		width: 100%;
+		text-align: center;
+
+
+	}
+	.text_field{
+		float: left;
+		width: 90%;
+	}
+	.content{
+		width: 91%;
+	}
+	i.fa.fa-user-circle{
+		font-size: 10em;
+		float: none;
+	}
+}
+
+
+@media only screen and (min-width: 993px){ 
+	.side_pannel_container{
+		width: 21%;
+	}
+	.nav_bar_container ul li:hover{
+		padding-bottom: 5px;
+	}
+}
+
+
+@media only screen and (min-width: 993px){ 
+	.body_container{
+	height: auto;
+    width: 78%;
+    float: left;
+    margin-bottom: 70px;
+	}
+}
+
+@media only screen and (max-width: 993px){
+
+.search_bar_container form{
+	width: 90%;
+	
+	}
+}
